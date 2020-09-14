@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: url(images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    padding-top: 40px;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    background: blueviolet;
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.logo img {
+    width: 30px;
+    position: reltaive;
+    z-index: 10;
+    cursor: pointer;
+}
+
+nav {
+    flex: 1;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 60px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.user img {
+    width: 30px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.sidebar {
+    width: 155px;
+    height: 100vh;
+    background: blueviolet;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.search-icon {
+    width: 20px;
+    display: block;
+    margin: 120px auto 0;
+}
+
+.social-links {
+    width: 20px;
+    display: block;
+    text-align: center;
+    margin: 220px auto 0;
+}
+
+.social-links img {
+    height: 15px;
+    margin-bottom: 30px;
+}
+
+.info-icon {
+    width: 20px;
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+}
+
+.msg-container {
+    width: 600px;
+    height: 280px;
+    position: absolute;
+    left: 14%;
+    top: 57%;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+
+#slider {
+    display: inline-flex;
+    transition: 0.5s;
+}
+
+.msg-col {
+    width: 600px;
+    height: 280px;
+}
+
+.msg-col h1 {
+    color: #fff;
+    font-size: 80px;
+    font-weight: 100;
+    margin: 10px 0;
+}
+
+.msg-col p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.msg-col a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    background: #fff;
+    border-radius: 30px;
+    padding: 10px 35px;
+    margin-top: 25px;
+}
+
+.controller {
+    width: 1px;
+    height: 320px;
+    background: #fff;
+    position: absolute;
+    top: 55%;
+    right: 120px;
+    transform: translateY(-50%);
+
+}
+
+#line1, #line2, #line3, #line4 {
+    width: 10px;
+    height: 80px;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+#active {
+    width: 5px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+
+
+
+ 
